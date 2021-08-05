@@ -1,0 +1,17 @@
+ALGORITHM 
+VAR tab:array_of_integer;
+    i,e,f:integer;
+BEGIN{
+    read(tab);
+    for i from 0 to tab.length-1 do {
+        A:=tab[i];
+        while i>0 and tab[i-1]> f do {
+            tab[i]:=tab[i-1];
+            i:=i-1;
+        }
+        endwhile
+    tab[i]:=val;
+    }
+    end_for
+}    
+END
